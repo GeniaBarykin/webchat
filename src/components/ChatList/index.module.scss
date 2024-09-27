@@ -1,0 +1,16 @@
+.chatlist {
+    overflow: auto;
+    max-width: 360px;
+    float: left;
+
+    &_chats {
+        height: calc(100vh - 48px);
+        overflow: auto;
+    }
+
+    &_chats::-webkit-scrollbar {
+        width: 16px;
+      }
+}
+
+

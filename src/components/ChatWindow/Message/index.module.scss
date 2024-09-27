@@ -1,0 +1,47 @@
+.message_wrapper {
+    &_new {
+        text-align: center;
+        background-color: #407ec91f;
+        font-family: Lato, sans-serif;
+        color: #407EC9;
+        font-size: 12px;
+        padding: 4px;
+    }
+}
+
+.message{
+    display: flex;
+    font-family: Lato, sans-serif;
+    margin: 16px;
+    &_placeholder {
+        width: 32px;
+    }
+    &_info{
+        &_header {
+            font-weight: bold;
+        }
+        &_text{
+            background-color: #F3F3F3;
+            border-radius: 8px;            
+            width: 38vw;
+            padding: 8px;
+        }
+
+        &_time {
+            width: 100%;
+            display: flex;
+            justify-content: end;
+
+        }
+    }
+
+    &_my{
+        background-color: #407ec918;
+        
+    }
+
+    &_right{
+        justify-content: end;
+    }
+}
+

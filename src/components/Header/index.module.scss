@@ -1,0 +1,20 @@
+.header {
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    height: 48px;
+    display: flex;
+    align-content: center;
+    gap: 8px;                   
+    margin-left: 16px; 
+    &_text{  
+        display: grid;
+        align-items: center;            
+        vertical-align: middle;
+    }
+
+    &_image {
+        height: 20px;
+        margin-top: 12px;
+    }
+}

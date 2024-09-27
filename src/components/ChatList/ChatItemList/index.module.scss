@@ -1,0 +1,59 @@
+
+.chatitem {
+    display: flex;
+    height: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    
+    &_text {
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 80%;
+        margin: auto;
+        
+        &_info {
+            display: flex;
+            justify-content: space-between;
+        }
+       
+        
+        
+        &_title {
+            font-family: Lato, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 80%;
+            height: 20px;
+            
+        }
+        
+        &_message {
+            font-family: Lato, sans-serif;
+            font-size: 15px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 100%;
+            color: #605E5C;
+            overflow: hidden;
+            height: 20px;    
+            margin: auto;
+        }
+    }
+    
+    
+}
+
+.active{
+    background-color: #407ec918;
+}
+
+.chatitem:hover {
+    background-color: #201F1E0A;
+}
+
